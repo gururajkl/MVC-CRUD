@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCRUD", "WebCRUD\WebCRUD.csproj", "{B5CE0236-FE87-47B3-B899-E8B9971277E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCRUD", "WebCRUD\WebCRUD.csproj", "{B5CE0236-FE87-47B3-B899-E8B9971277E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theory", "Theory", "{C5B83091-25E4-4102-84CE-1FD3CB8E0418}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slides", "Slides", "{13010315-EE8D-47E7-B630-1BF1A88A9F08}"
+	ProjectSection(SolutionItems) = preProject
+		..\Action Results in MVC.png = ..\Action Results in MVC.png
+		..\Features of ASP.Net core.png = ..\Features of ASP.Net core.png
+		..\MVC Architecture.png = ..\MVC Architecture.png
+		..\Pipeline.png = ..\Pipeline.png
+		..\Why IActionResult.png = ..\Why IActionResult.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13010315-EE8D-47E7-B630-1BF1A88A9F08} = {C5B83091-25E4-4102-84CE-1FD3CB8E0418}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B9E0DE-B832-4788-ABFA-F81D7B51959B}
