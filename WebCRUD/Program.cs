@@ -15,6 +15,7 @@ namespace WebCRUD
             (
                 builder.Configuration.GetConnectionString("lenovo")
             ));
+            builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
             var app = builder.Build();
 
