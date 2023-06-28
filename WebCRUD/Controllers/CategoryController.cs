@@ -19,9 +19,20 @@ namespace WebCRUD.Controllers
             return View(categoriesFromDatabase);
         }
 
+        // GET
         public IActionResult Create()
         {
             return View();
+        }
+
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category category)
+        {
+            db.Categories.Add(category);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
